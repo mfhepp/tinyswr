@@ -61,7 +61,10 @@ Finally, add the toroid.
 Add wires to the ANT and TX pads. I recommend to use twisted wire; it will have an impedance close to 50 Ohms.
 
 The following shows an assembled earlier version of the PCB:
-![TinySWR](https://raw.githubusercontent.com/mfhepp/tinyswr/blob/master/images/tinyswr-photo.png). Note that the orientation of several compoents changed in the current release.
+
+![TinySWR](https://raw.githubusercontent.com/mfhepp/tinyswr/master/images/tinyswr-photo.png). 
+
+Note that the orientation of several compoents changed in the current release.
 
 ## Calibration ##
 Connect the meter to you rig an attach a 50 Ohm dummy load to the ANT wires. Now, turn the trimmer until SWR1 continues to light a tiny little bit. Do not aim at turning it off completely, otherwise you might miss a high SWR.
