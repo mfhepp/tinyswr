@@ -53,6 +53,14 @@ b) Small SMD trimmer potentiometers are available with many different footprints
 12 | Wire 2 | n/a | 5 cm | Enamel Wire 0.5 - 0.63 mm | n/a | Any | 
 13 | PCB |  |  |  |  |  | 
 
+It seems that the following trimmer potentiometer has an identical footprint and may be easier to source:
+
+**Manufacturer:** BI Technologies
+**MPN:** 23BR1KLFTR
+Available e.g. from 
+* [Reichelt](https://www.reichelt.de/Miniaturtrimmer/23B-1-0K/3/index.html?ACTION=3&LA=3&ARTICLE=146082&GROUPID=3131&trstct=vrt_pdn)
+* [Mouser](http://www.mouser.de/ProductDetail/TT-Electronics/23BR1KLFTR/)
+
 The PCB can be [ordered from OSH Park at a very fair price](https://oshpark.com/shared_projects/kZaRTLlD) (as of writing: USD 2.30 for three boards including shipment to Germany).
 
 ## Assembly ##
