@@ -62,7 +62,7 @@ It seems that the following trimmer potentiometer has an identical footprint and
 The PCB can be [ordered from OSH Park at a very fair price](https://oshpark.com/shared_projects/kZaRTLlD) (as of writing: USD 2.30 for three boards including shipment to Germany).
 
 Barry Gross, N1EU, took the effort to create a bill of materials at mouser.com, which will make ordering the parts much easier. His list is at
-[here](https://www.mouser.de/ProjectManager/ProjectDetail.aspx?AccessID=2C5FD3DF01). Please note that he included multiple alternative LED brands, because the one I recommended are not available at Mouser. The list includes everything except for the PCB and the short pieces of enamel wire.
+[https://www.mouser.de/ProjectManager/ProjectDetail.aspx?AccessID=2C5FD3DF01](https://www.mouser.de/ProjectManager/ProjectDetail.aspx?AccessID=2C5FD3DF01). Please note that he included multiple alternative LED brands, because the one I recommended are not available at Mouser. The list includes everything except for the PCB and the short pieces of enamel wire.
 
 ## Assembly ##
 First, wind the toroid. Start with the secondary winding of N=25 turns with 0.2 mm enamel wire. Each passing of the core of the toroid counts as one turn. Make sure the turns are evenly distributed to cover ca. 270 degrees of the core. The turns in the midle (i.e. between turn 12 and 13) should be spaced a tiny bit wider than the others so that the primary turn can have tight contact with the core. Then add the one turn primary winding tightly.
