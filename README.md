@@ -40,7 +40,7 @@ b) Small SMD trimmer potentiometers are available with many different footprints
  Id | Designator | Package | Quantity | Designation | MPN | Supplier and Reference |
 --- | ---------- | ------- | -------- | ----------- | --- | ---------------------- |
 1 | R1, R4 | 0805 | 2 | 820R | n/a | Any | 
-2 | R2 | Bourns 3314G | 1 | 1k | Bourns 3314G-1-102E or TT Electronics 23BR1KLFTR | Mouser: 652-3314G-1-102E or 858-23BR1KLFTR| http://www.mouser.de/ProductDetail/Bourns/3314G-1-102E/ or http://www.mouser.de/ProductDetail/TT-Electronics/23BR1KLFTR/. Also available from Reichelt: 23B-1,0K
+2 | R2 | Bourns 3314G | 1 | 1k | Bourns 3314G-1-102E or TT Electronics 23BR1KLFTR | Mouser: 652-3314G-1-102E or 858-23BR1KLFTR; Reichelt: 23B-1,0K| 
 3 | R3 | 0805 | 1 | 4.7k | n/a | Any | 
 4 | R5 | 0805 | 1 | 100R | n/a | Any | 
 5 | SWR1,SWR2,SWR3 | LED 1.8 or 3 mm | 3 | Red, 2mA, Forward Voltage typ 1.7, max 2.0 | KINGBRIGHT L-934LID | Reichelt: LED 3MM 2MA RT | 
