@@ -76,10 +76,10 @@ The following shows an assembled earlier version of the PCB:
 
 ![TinySWR](https://raw.githubusercontent.com/mfhepp/tinyswr/master/images/tinyswr-photo.png). 
 
-Note that the orientation of several compoents changed in the current release.
+Note that the orientation of several components changed in the current release.
 
 ## Calibration ##
-Connect the meter to you rig and attach a 50 Ohm dummy load to the ANT wires. Now, turn the trimmer until only SWR1 continues to light a tiny little bit. Do not aim at turning it off completely, otherwise you might miss a high SWR.
+Connect the meter to your QRP rig and attach a 50 Ohm dummy load to the ANT wires. Do not use more than 5 W of power! Now, turn the trimmer until only SWR1 continues to light a tiny little bit. Do not aim at turning it off completely, otherwise you might miss a high SWR.
 
 If you are unable to get the other LEDs turned off, you have likely mixed the primary winding of the coupler. In that case, either swap the wires of the primary winding on the PCB, or, often easier, simply swap the ANT and TX connectors.
 
