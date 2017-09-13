@@ -1,0 +1,24 @@
+parts GoBox:
+
+Coil
+finally: TDK - B82472G6472M000 http://www.mouser.de/ProductDetail/EPCOS-TDK/B82472G6472M000/?qs=x3Z3TaiycdthrWZVpddugg%3d%3d
+
+
+L-1616FPS 4,7µ :: Chip-Induktivität, 1616FPS, 4,7 µH
+oder
+mouser:
+http://www.mouser.de/ProductDetail/Bourns/SRR0604-4R7ML/?qs=sGAEpiMZZMsg%252by3WlYCkUwf6GkOOXDBCVYNCkr8b0t8%3d
+
+elko 100 - panasonic
+https://www.reichelt.de/Elkos-radial-105-C-5000-10000h/RAD-FR-100-16/3/index.html?ACTION=3&LA=2&ARTICLE=121252&GROUPID=5513&artnr=RAD+FR+100%2F16&SEARCH=%252A
+2mm / 5 mm / 11 mm
+
+diode schottky
+http://www.mouser.de/Search/ProductDetail.aspx?qs=mVVXn4M53U%252bvrBaFv5vr4w==
+
+
+trimmer:
+Trimmer-EVM3S_R
+https://www.digchip.com/datasheets/parts/datasheet/2080/EVM3S-pdf.php
+
+gibt es bei Mouser
