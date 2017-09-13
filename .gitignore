@@ -1,0 +1,42 @@
+# For Open Hardware Projects with KiCad for the hardware and arbitrary software
+
+# Project management stuff
+# Remove comment in real project, included in here to have it in the repo
+# todo.txt
+
+# Datasheets
+# Preserve the folder but do not redistribute the datasheets.
+datasheets/
+!datasheets/.gitkeep
+
+
+# Software
+# TBD, project specific
+
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# from https://github.com/github/gitignore/blob/master/KiCad.gitignore
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*~
+.DS_Store
+
+_autosave-*
+*.tmp
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# Local studd
+local/
