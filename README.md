@@ -1,3 +1,5 @@
+**Warning:** The current release and the PCB hosted at OSH Park reflect a new, improved PCB design that is NOT YET TESTED. There might still be problems with the PCB. **Try at your own risk.**
+
 # TinySWR
 A tiny SWR and RF power indicator for QRP transceivers
 
