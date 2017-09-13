@@ -1,7 +1,7 @@
 # TinySWR
 A tiny SWR and RF power indicator for QRP transceivers
 
-![TinySWR](https://raw.githubusercontent.com/mfhepp/tinyswr/blob/master/images/tinyswr1.png)
+![TinySWR](https://raw.githubusercontent.com/mfhepp/tinyswr/master/images/tinyswr1.png)
 
 This is a simple SWR and RF power indicator for QRP transceivers. It will work well with 1 ... 5 W rigs.
 
