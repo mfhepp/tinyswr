@@ -1,6 +1,8 @@
 # TinySWR
 A tiny SWR and RF power indicator for QRP transceivers
 
+![TinySWR](https://raw.githubusercontent.com/mfhepp/tinyswr/blob/master/images/tinyswr1.png)
+
 This is a simple SWR and RF power indicator for QRP transceivers. It will work well with 1 ... 5 W rigs.
 
 The circuit is based on a design by Hans Steinort (DF3OS),
@@ -45,7 +47,7 @@ b) Small SMD trimmer potentiometers are available with many different footprints
 12 | Wire 2 | n/a | 5 cm | Enamel Wire 0.5 - 0.63 mm | n/a | Any | 
 13 | PCB |  |  |  |  |  | 
 
-The PCB can be [ordered from OSH Park at a very fair price](https://oshpark.com/shared_projects/kZaRTLlD).
+The PCB can be [ordered from OSH Park at a very fair price](https://oshpark.com/shared_projects/kZaRTLlD) (as of writing: USD 2.30 for three boards including shipment to Germany).
 
 ## Assembly ##
 First, wind the toroid. Start with the secondary winding of N=25 turns with 0.2 mm enamel wire. Each passing of the core of the toroid counts as one turn. Make sure the turns are evenly distributed to cover ca. 270 degrees of the core. The turns in the midle (i.e. between turn 12 and 13) should be spaced a tiny bit wider than the others so that the primary turn can have tight contact with the core. Then add the one turn primary winding tightly.
@@ -57,6 +59,9 @@ Now, solder the SMD components except for the trimmer. Then add the trimmer. Fin
 Finally, add the toroid. 
 
 Add wires to the ANT and TX pads. I recommend to use twisted wire; it will have an impedance close to 50 Ohms.
+
+The following shows an assembled earlier version of the PCB:
+![TinySWR](https://raw.githubusercontent.com/mfhepp/tinyswr/blob/master/images/tinyswr-photo.png). Note that the orientation of several compoents changed in the current release.
 
 ## Calibration ##
 Connect the meter to you rig an attach a 50 Ohm dummy load to the ANT wires. Now, turn the trimmer until SWR1 continues to light a tiny little bit. Do not aim at turning it off completely, otherwise you might miss a high SWR.
