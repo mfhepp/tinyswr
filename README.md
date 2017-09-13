@@ -88,6 +88,13 @@ If you are unable to get the other LEDs turned off, you have likely mixed the pr
 
 Now you are all set! If less than two LEDs light up, your SWR should be less than 1:2. An SWR up to 1:1.3..1.5 will only light up the first LED. The brightness depends on the input power, unfortunately.
 
+## Sources ##
+The files in the repository contain 
+* Gerber and drill files for producing your own PCBs
+* a KiCad project with the schematics, PCB, and parts and footprints libraries.
+
+KiCad is a great and free electronics design package. For more information, see [http://kicad-pcb.org/](http://kicad-pcb.org/).
+
 ## Acknowledments ##
 The schematic is based on the design by Hans Steinort (DF3OS),
 see http://www.sp5jnw.sem.pl/konstrukcje/atudf3oshtm/atudf3oseng.pdf,
