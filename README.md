@@ -73,11 +73,11 @@ The following shows an assembled earlier version of the PCB:
 Note that the orientation of several compoents changed in the current release.
 
 ## Calibration ##
-Connect the meter to you rig an attach a 50 Ohm dummy load to the ANT wires. Now, turn the trimmer until SWR1 continues to light a tiny little bit. Do not aim at turning it off completely, otherwise you might miss a high SWR.
+Connect the meter to you rig and attach a 50 Ohm dummy load to the ANT wires. Now, turn the trimmer until only SWR1 continues to light a tiny little bit. Do not aim at turning it off completely, otherwise you might miss a high SWR.
 
 If you are unable to get the other LEDs turned off, you have likely mixed the primary winding of the coupler. In that case, either swap the wires of the primary winding on the PCB, or, often easier, simply swap the ANT and TX connectors.
 
-Now you are all set! If less than two LEDs light up, your SWR should be less than 1:2. An SWR up to 1:1.3..1.5 will only light up the first LED.
+Now you are all set! If less than two LEDs light up, your SWR should be less than 1:2. An SWR up to 1:1.3..1.5 will only light up the first LED. The brightness depends on the input power, unfortunately.
 
 ## Acknowledments ##
 The schematic is based on the design by Hans Steinort (DF3OS),
