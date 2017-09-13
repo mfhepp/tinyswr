@@ -21,6 +21,8 @@ The circuit uses a standard Bruene bridge as a directional coupler, but with a r
 
 The reflected power induces a voltage at pin 3 of the coupler. Depending on that voltage, LEDs SWR 1 - 3 start to light.
 
+![TinySWR Schematic](https://raw.githubusercontent.com/mfhepp/tinyswr/master/images/tinyswr-schematic.png)
+
 Because of many variables, the LEDs do not measure the SWR in any precise way, but rather indicate whether the antenna is an acceptable match.
 
 You can calibrate the circuit with R2 so that SWR 1 is just about to start lighting at an SWR of 1:1.
