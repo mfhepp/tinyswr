@@ -1,7 +1,7 @@
 **Warning:** The current release and the PCB hosted at OSH Park reflect a new, improved PCB design that is NOT YET TESTED. There might still be problems with the PCB. **Try at your own risk.**
 
 # TinySWR
-A tiny SWR and RF power indicator for QRP transceivers
+A tiny SWR and RF power indicator for QRP transceivers - just 20.98x14.38 mm!
 
 ![TinySWR](https://raw.githubusercontent.com/mfhepp/tinyswr/master/images/tinyswr1.png)
 
@@ -13,6 +13,8 @@ with improvements from Dieter Engels (DJ6TE) and
 Hannes Hiller (DL9SCO).
 
 I changed the values of certain components, modified the LED array, and designed an SMD PCB so that it is easier to assemble.
+
+The PCB can be [ordered from OSH Park at a very fair price](https://oshpark.com/shared_projects/kZaRTLlD) (as of writing: USD 2.30 for three boards including shipment to Germany).
 
 ## Circuit Description ##
 The circuit uses a standard Bruene bridge as a directional coupler, but with a resistive voltage divider (R1 - R3).
