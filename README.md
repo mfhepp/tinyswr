@@ -1,4 +1,6 @@
-**Warning:** The current release and the PCB hosted at OSH Park reflect a new, improved PCB design that is NOT YET TESTED. There might still be problems with the PCB. **Try at your own risk.**
+**Warning 1:** There is a minor bug in version 1.1 (2017-09-14) of the PCB that has been available via OSH Park from September 14 through October 24, 2017: The connection between the ground of antenna and rig on one hand and the SWR circuit is missing. A simple wire should be sufficient to fix this if you ordered PCBs on the basis of this version.
+
+**Warning 2:** The current release 1.2 dated October 24, 2017, and the PCB hosted at OSH Park after that date reflect a new, improved PCB design that is NOT YET TESTED. There might still be problems with the PCB. **Try at your own risk.** I will post here once I had the chance to test the new PCB.
 
 # TinySWR
 A tiny SWR and RF power indicator for QRP transceivers - just 20.98x14.38 mm!

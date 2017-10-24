@@ -38,5 +38,5 @@ _autosave-*
 *.xml
 *.csv
 
-# Local studd
+# Local stuff
 local/

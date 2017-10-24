@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RTRIM
+D trimmable Resistor (Preset resistor)
+K r res resistor variable potentiometer trimmer
+$ENDCMP
+#
+#End Doc Library
