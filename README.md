@@ -16,7 +16,7 @@ Hannes Hiller (DL9SCO).
 
 I changed the values of certain components, modified the LED array, and designed a SMD PCB so that it is easier to assemble.
 
-The PCB can be [ordered from OSH Park at a very fair price](https://oshpark.com/shared_projects/kZaRTLlD) (as of writing: USD 2.30 for three boards including shipment to Germany).
+The PCB can be [ordered from OSH Park at a very fair price](https://oshpark.com/projects/JtKPis3T) (as of writing: USD 2.30 for three boards including shipment to Germany).
 
 ## Circuit Description ##
 The circuit uses a standard Bruene bridge as a directional coupler, but with a resistive voltage divider (R1 - R3).
@@ -61,7 +61,7 @@ It seems that the following trimmer potentiometer has an identical footprint and
 * [Reichelt](https://www.reichelt.de/Miniaturtrimmer/23B-1-0K/3/index.html?ACTION=3&LA=3&ARTICLE=146082&GROUPID=3131&trstct=vrt_pdn)
 * [Mouser](http://www.mouser.de/ProductDetail/TT-Electronics/23BR1KLFTR/)
 
-The PCB can be [ordered from OSH Park at a very fair price](https://oshpark.com/shared_projects/kZaRTLlD) (as of writing: USD 2.30 for three boards including shipment to Germany).
+The PCB can be [ordered from OSH Park at a very fair price](https://oshpark.com/projects/JtKPis3T) (as of writing: USD 2.30 for three boards including shipment to Germany).
 
 Barry Gross, N1EU, took the effort to create a bill of materials at mouser.com, which will make ordering the parts much easier. His list is at
 [https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7968437adc](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7968437adc). Please note that he included multiple alternative LED brands, because the type I recommended is not available at Mouser. The list includes everything except for the PCB and the short pieces of enameled wire.
