@@ -1,4 +1,4 @@
-**Warning 1:** There is a minor bug in version 1.1 (2017-09-14) of the PCB that has been available via OSH Park from September 14 through October 24, 2017: The connection between the ground of antenna and rig on one hand and the SWR circuit is missing. A simple wire should be sufficient to fix this if you ordered PCBs on the basis of this version.
+**Warning 1:** There is a minor bug in version 1.1 (2017-09-14) of the PCB that has been available via OSH Park from September 14 through October 24, 2017: The connection between the ground of antenna and rig on one hand and the SWR circuit is missing. Adding a short wire from the ANT GND (the rectangular pads) to any of the other pins that should carry GND (e.g. GND side of R3, R4, R5; cathode pins of SWR3 or RF1, or anode of D3) should do the trick.
 
 **Warning 2:** The current release 1.2 dated October 24, 2017, and the PCB hosted at OSH Park after that date reflect a new, improved PCB design that is NOT YET TESTED. There might still be problems with the PCB. **Try at your own risk.** I will post here once I had the chance to test the new PCB.
 
@@ -14,7 +14,7 @@ see http://www.sp5jnw.sem.pl/konstrukcje/atudf3oshtm/atudf3oseng.pdf,
 with improvements from Dieter Engels (DJ6TE) and 
 Hannes Hiller (DL9SCO).
 
-I changed the values of certain components, modified the LED array, and designed an SMD PCB so that it is easier to assemble.
+I changed the values of certain components, modified the LED array, and designed a SMD PCB so that it is easier to assemble.
 
 The PCB can be [ordered from OSH Park at a very fair price](https://oshpark.com/shared_projects/kZaRTLlD) (as of writing: USD 2.30 for three boards including shipment to Germany).
 
@@ -51,8 +51,8 @@ b) Small SMD trimmer potentiometers are available with many different footprints
 8 | D2 | MiniMELF | 1 | 3.3V | n/a | Any | 
 9 | D3 | MiniMELF | 1 | BAT46 | n/a | Any | 
 10 | L1 | FT23 Toroid (see details) | 1 | Toroid | Amidon FT23-43 | Reichelt: FT 23-43 | 
-11 | Wire 1 | n/a | 30 cm | Enamel Wire 0.2 mm | n/a | Any | 
-12 | Wire 2 | n/a | 5 cm | Enamel Wire 0.5 - 0.63 mm | n/a | Any | 
+11 | Wire 1 | n/a | 30 cm | Enameled Wire ca. 0.2 mm | n/a | Any | 
+12 | Wire 2 | n/a | 5 cm | Enameled Wire ca. 0.5 - 0.63 mm | n/a | Any | 
 13 | PCB |  |  |  |  |  | 
 
 It seems that the following trimmer potentiometer has an identical footprint and may be easier to source:
@@ -64,18 +64,18 @@ It seems that the following trimmer potentiometer has an identical footprint and
 The PCB can be [ordered from OSH Park at a very fair price](https://oshpark.com/shared_projects/kZaRTLlD) (as of writing: USD 2.30 for three boards including shipment to Germany).
 
 Barry Gross, N1EU, took the effort to create a bill of materials at mouser.com, which will make ordering the parts much easier. His list is at
-[https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7968437adc](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7968437adc). Please note that he included multiple alternative LED brands, because the one I recommended are not available at Mouser. The list includes everything except for the PCB and the short pieces of enamel wire.
+[https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7968437adc](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7968437adc). Please note that he included multiple alternative LED brands, because the type I recommended is not available at Mouser. The list includes everything except for the PCB and the short pieces of enameled wire.
 
 ## Assembly ##
-First, wind the toroid. Start with the secondary winding of N=25 turns with 0.2 mm enamel wire. Each passing of the core of the toroid counts as one turn. Make sure the turns are evenly distributed to cover ca. 270 degrees of the core. The turns in the midle (i.e. between turn 12 and 13) should be spaced a tiny bit wider than the others so that the primary turn can have tight contact with the core. Then add the one turn primary winding tightly.
+First, wind the toroid. Start with the secondary winding of N=25 turns with 0.2 mm enameled wire. Each passing of the core of the toroid counts as one turn. Make sure the turns are evenly distributed to cover ca. 270 degrees of the core. The turns in the midle (i.e. between turn 12 and 13) should be spaced a tiny bit wider than the others so that the primary turn can have tight contact with the core. Then add the one turn primary winding tightly.
 
 Put this aside.
 
-Now, solder the SMD components except for the trimmer. Then add the trimmer. Finally, add the LEDs, mind the polarity. The rectangular pads on the PCB indicate the cathode (-, shorter leg). You need to bend the wires in a 90 degree angle close to the LED housing; be careful to not crack the cases.
+Now, solder the SMD components except for the trimmer. Then add the trimmer. Finally, add the LEDs, mind the polarity. The rectangular pads on the PCB indicate the cathode (-, shorter leg). You need to bend the wires in a 90 degree angle close to the LED housing; be careful to not crack the cases. Do not bend the LEDs after soldering; this may create tiny cracks that will reduce their lifespan.
 
 Finally, add the toroid. 
 
-Add wires to the ANT and TX pads. I recommend to use twisted wire; it will have an impedance close to 50 Ohms.
+Add wires to the ANT and TX pads. I recommend to use twisted wire; it will have an impedance close to 50 Ohms. You could also try short pieces of RG174 coax.
 
 The following shows an assembled earlier version of the PCB:
 
