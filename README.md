@@ -1,5 +1,9 @@
 **Warning 1:** There is a minor bug in version 1.1 (2017-09-14) of the PCB that has been available via OSH Park from September 14 through October 24, 2017: The connection between the ground of antenna and rig on one hand and the SWR circuit is missing. Adding a short wire from the ANT GND (the rectangular pads) to any of the other pins that should carry GND (e.g. GND side of R3, R4, R5; cathode pins of SWR3 or RF1, or anode of D3) should do the trick.
 
+The recommended way to fix this is a short wire from ANT GND to the rectangular pad of the yellow LED labeled RF1. The picture below shows this modification. Be careful not to shorten the "RIG" GND pin with the RIG signal pin.
+
+![TinySWR](https://raw.githubusercontent.com/mfhepp/tinyswr/master/images/tinyswr-v2-bugfix.png)
+
 **Warning 2:** The current release 1.2 dated October 24, 2017, and the PCB hosted at OSH Park after that date reflect a new, improved PCB design that is NOT YET TESTED. There might still be problems with the PCB. **Try at your own risk.** I will post here once I had the chance to test the new PCB.
 
 # TinySWR
@@ -85,6 +89,8 @@ Note that the orientation of several components changed in the current release.
 
 ## Calibration ##
 Connect the meter to your QRP rig and attach a 50 Ohm dummy load to the ANT wires. Do not use more than 5 W of power! Now, turn the trimmer until only SWR1 continues to light a tiny little bit. Do not aim at turning it off completely, otherwise you might miss a high SWR.
+
+**Hint:** This minimum can also be in the middle position of the trimmer potentiometer, in particular if the windings of the toroid are not well aligned.
 
 If you are unable to get the other LEDs turned off, you have likely mixed the primary winding of the coupler. In that case, either swap the wires of the primary winding on the PCB, or, often easier, simply swap the ANT and TX connectors.
 
