@@ -58,7 +58,7 @@ b) Small SMD trimmer potentiometers are available with many different footprints
 
 **Hint:** You may also want to add a few 100 R/2W resistors to you order for they will be useful as a dummy load for calibration (two in parallel -> 50R -> 1:1.0, one resistor -> 100R -> 1:2.0).
 
-**Trimmer Potentiometer:** It seems that the following trimmer potentiometer has an identical footprint as the Bournd model and may be easier to source:
+**Trimmer Potentiometer:** It seems that the following trimmer potentiometer has an identical footprint as the Bourns model and may be easier to source:
 
 **Manufacturer:** BI Technologies, **MPN:** 23BR1KLFTR; available e.g. from 
 * [Reichelt](https://www.reichelt.de/Miniaturtrimmer/23B-1-0K/3/index.html?ACTION=3&LA=3&ARTICLE=146082&GROUPID=3131&trstct=vrt_pdn)
