@@ -76,7 +76,7 @@ First, wind the toroid. Start with the secondary winding of N=25 turns with 0.2 
 
 **Important:** The direction of the primary turn in relation to the secondary matters! Below is a picture that shows how it should look like.
 
-![TinySWR](https://raw.githubusercontent.com/mfhepp/tinyswr/master/images/tinyswr-toroid.png)
+![TinySWR](https://raw.githubusercontent.com/mfhepp/tinyswr/master/images/tinyswr-photo-toroid.png)
 
 Put the toroid aside for now.
 
