@@ -90,7 +90,7 @@ Finally, add the toroid.
 
 Add wires to the ANT and TX pads. I recommend to use tightly twisted wire; it will have an impedance close to 50 Ohms. You could also try short pieces of RG174 coax.
 
-The following shows an assembled  version of the PCB (version 1.2 dated October 24, 2017:
+The following shows an assembled  version of the PCB (version 1.2 dated October 24, 2017):
 
 ![TinySWR Top View](https://raw.githubusercontent.com/mfhepp/tinyswr/master/images/tinyswr-photo-top.png). 
 
