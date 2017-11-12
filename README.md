@@ -70,7 +70,7 @@ Barry Gross, N1EU, took the effort to create a bill of materials at mouser.com, 
 [https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7968437adc](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=7968437adc). Please note that he included multiple alternative LED brands, because the type I recommended is not available at Mouser. The list includes everything except for the PCB and the short pieces of enameled wire.
 
 ## Assembly ##
-First, wind the toroid. Start with the secondary winding of N=25 turns with 0.2 mm enameled wire. Each passing of the core of the toroid counts as one turn. Make sure the turns are evenly distributed to cover ca. 270 degrees of the core. The turns in the midle (i.e. between turn 12 and 13) should be spaced a tiny bit wider than the others so that the primary turn can have tight contact with the core. Then add the one turn primary winding tightly.
+First, wind the toroid. Start with the secondary winding of N=25 turns with 0.2 mm enameled wire. Each passing of the core of the toroid counts as one turn. Make sure the turns are evenly distributed to cover ca. 270 degrees of the core. The turns in the middle (i.e. between turn 12 and 13) should be spaced a tiny bit wider than the others so that the primary turn can have tight contact with the core. Then add the one turn primary winding tightly.
 
 **Hint:** Initially, I used enameled 0.5 mm wire for the primary winding, too, but it is pretty difficult to remove the coating at this short piece with precision. I now prefer using a short piece of insulated wire of 0.5 mm diameter or similar.
 
