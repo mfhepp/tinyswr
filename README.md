@@ -109,7 +109,9 @@ If you are unable to get the other LEDs turned off, you have likely mixed the pr
 
 Now you are all set! If less than two LEDs light up, your SWR should be less than 1:2. An SWR up to 1:1.3..1.5 will only light up the first LED. The brightness depends on the input power, unfortunately.
 
-**Warning:** There is a minor bug in version 1.1 (2017-09-14) of the PCB that has been available via OSH Park from September 14 through October 24, 2017: The connection between the ground of antenna and rig on one hand and the SWR circuit is missing. Adding a short wire from the ANT GND (the rectangular pads) to any of the other pins that should carry GND (e.g. GND side of R3, R4, R5; cathode pins of SWR3 or RF1, or anode of D3) should do the trick.
+## Required Modifications on V1.1 PCB ##
+
+There is a minor bug in version 1.1 (2017-09-14) of the PCB that has been available via OSH Park from September 14 through October 24, 2017: The connection between the ground of antenna and rig on one hand and the SWR circuit is missing. Adding a short wire from the ANT GND (the rectangular pads) to any of the other pins that should carry GND (e.g. GND side of R3, R4, R5; cathode pins of SWR3 or RF1, or anode of D3) should do the trick.
 
 The recommended way to fix this is a short wire from ANT GND to the rectangular pad of the yellow LED labeled RF1. The picture below shows this modification. Be careful not to shorten the "RIG" GND pin with the RIG signal pin.
 
