@@ -1,4 +1,6 @@
-**Update 2017-11-11:** In the meantime, I received, assembled and tested the PCBs for the current version 1.2 (dated October 24, 2017), and can confirm that this new PCB design works. If you ordered a PCB from OSH Park before October 24, 2017, you have to fix one minor bug in the layout by means of a short piece of wire, see below for details.
+**Update 2018-05-14:** [Hamshop.cz is now offering a complete kit of TinySWR](https://www.hamshop.cz/qrp-c30/tinyswr-kit-i347/), i.e. a PCB and all required parts at a very fair price (ca. 5 EUR).
+
+**Note:** If you ordered a PCB from OSH Park before October 24, 2017, you have to fix one minor bug in the layout by means of a short piece of wire, see below for details.
 
 # TinySWR
 A tiny SWR and RF power indicator for QRP transceivers - just 20.98x14.38 mm!
