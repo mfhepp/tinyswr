@@ -1,3 +1,5 @@
+**Update 2022-10-31:** [Vojtech, OK1IAK pointed out that the circuit may increase the amount of harmonic content](https://groups.io/g/ATSprint/message/80) of your output signal. I did some preliminary analysis of this, see below for details.
+
 **Update 2018-05-14:** [Hamshop.cz is now offering a complete kit of TinySWR](https://www.hamshop.cz/qrp-c30/tinyswr-kit-i347/), i.e. a PCB and all required parts at a very fair price (ca. 5 EUR).
 
 **Note:** If you ordered a PCB from OSH Park before October 24, 2017, you have to fix one minor bug in the layout by means of a short piece of wire, see below for details.
@@ -116,6 +118,19 @@ There is a minor bug in version 1.1 (2017-09-14) of the PCB that has been availa
 The recommended way to fix this is a short wire from ANT GND to the rectangular pad of the yellow LED labeled RF1. The picture below shows this modification. Be careful not to shorten the "RIG" GND pin with the RIG signal pin.
 
 ![TinySWR](https://raw.githubusercontent.com/mfhepp/tinyswr/master/images/tinyswr-v2-bugfix.png)
+
+## Potential Risk of Additional Harmonic Content
+
+Since the LEDs consume energy from the RF signal in a non-linear fashion, they may increase the amount of harmonic content in your transmitted signal. The full discussion is [here](https://groups.io/g/ATSprint/message/460); in a nutshell:
+
+- the exact effect depends on the LEDs, SWR, power level, frequency, and more;
+- it mostly affects the uneven harmonics, most relevant is the 3rd harmonic;
+- the effect can be up to +5dB for the 3rd harmonic; that should normally not be a real problem, since a good transceiver will have them deep in the -60dB region, so even +5dB will not bring them above the required attenuation.
+
+If you want to be on the safe side, check our transmitted signal after the installation of the TinySWR circuit with a spectrum analyzer. 
+
+An alternative is Vojtech's [BlinkySWR](https://github.com/bubnikv/BlinkySWR), which takes extra measures for miniming the underlying effect (and operates in a digital fashion).
+
 
 ## Sources ##
 The files in the repository contain 
